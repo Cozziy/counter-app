@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+  font-family: Arial;
+}
+button {
+  padding: 10px 20px ;
+  margin: 5px;
+}
+#increment {
+  background: lightgreen;
+}
+#decrement {
+  background: pink;
+}
+#warning {
+    color: red;
+    transition: opacity 0.3s ease-in-out;
+    height: 20px;
+    opacity: 0;
+}
+
+#warning.show {
+    opacity:1;
+}
